@@ -10,8 +10,7 @@ from django.utils import timezone
 from test_plus.test import TestCase
 
 from ..models import Announcement, Dismissal
-from ..templatetags.pinax_announcements_tags import \
-    announcements as announcements_tag
+from ..templatetags.pinax_announcements_tags import announcements as announcements_tag
 from ..views import (
     AnnouncementCreateView,
     AnnouncementDeleteView,

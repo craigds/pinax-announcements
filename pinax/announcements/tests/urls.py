@@ -1,5 +1,5 @@
-from django.urls import include, re_path
 from django.http import HttpResponse
+from django.urls import include, re_path
 
 
 def dummy_view(request):
